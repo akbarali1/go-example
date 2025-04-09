@@ -12,8 +12,7 @@ func (p person) print() {
 }
 
 func (p person) printPointer() {
-	p.name = "121212"
-	fmt.Printf("1111 %s is of %d years \n", p.name, p.age)
+	fmt.Printf("Ikkinchi: %s is of %d years \n", p.name, p.age)
 }
 
 func main() {
